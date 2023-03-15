@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_splash/src/features/authentication/screens/splash_screen/splash_screen.dart';
 import 'package:flutter_splash/src/utils/theme/theme.dart';
 
 void main() {
@@ -17,8 +16,8 @@ class WelcomeApp extends StatelessWidget {
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
       themeMode: ThemeMode.system,
-      home:Scaffold(
-        body:Center(
+      home: const Scaffold(
+        body: Center(
           child:Text("Welcome"),),
       ),
     );

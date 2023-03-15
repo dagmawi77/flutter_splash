@@ -1,13 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_splash/src/constants/colors.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import '../../../../constants/images_string.dart';
 import '../../../../constants/sizes.dart';
 import '../../../../constants/text_string.dart';
 import '../../controllers/spalsh_screen_cotroller.dart';
-import '../welcome_screen/welcome.dart';
-
 
 class SplashScreen extends StatelessWidget {
    SplashScreen({Key? key}) :super(key:key);
@@ -34,7 +31,7 @@ final  splashScreenController =Get.put(SplashScreenController());
               top : splashScreenController.animate.value?0:-30,
               left : splashScreenController.animate.value?0:-30,
               
-              child: Image(image: AssetImage(dSplashTopIcons),),),
+              child: const Image(image: AssetImage(dSplashTopIcons),),),
         ),
          Obx(
            ()=> AnimatedPositioned(
@@ -44,16 +41,16 @@ final  splashScreenController =Get.put(SplashScreenController());
             child:AnimatedOpacity(
               duration: const Duration(milliseconds: 1600),
               opacity: splashScreenController.animate.value?1:0,
-              child: Column(
+              child: const Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                 Text(dAppName,style: TextStyle(
-                  fontSize: 15,
+                  fontSize: 20,
                   fontWeight: FontWeight.bold,
                 )
                 
                 ),
-                Text(dAppTagLine ,style: TextStyle(fontSize: 12,fontWeight: FontWeight.w600),)
+                Text(dAppTagLine ,style: TextStyle(fontSize: 15,fontWeight: FontWeight.w600),)
                 ],
             
               ),
@@ -70,7 +67,7 @@ final  splashScreenController =Get.put(SplashScreenController());
               child: AnimatedOpacity(
               duration: const Duration(milliseconds: 2000),
               opacity: splashScreenController.animate.value?1:0,
-                child: Image(image: AssetImage(dSplashImage),)),
+                child: const Image(image: AssetImage(dSplashImage),)),
               ),
          ),
          Obx(
