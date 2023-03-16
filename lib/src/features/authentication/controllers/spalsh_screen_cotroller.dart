@@ -2,6 +2,8 @@
 import 'package:flutter_splash/src/features/authentication/screens/onbording_screen/onbording.dart';
 import 'package:get/get.dart';
 
+import '../screens/welcome_screen/welcome.dart';
+
 
 
 class SplashScreenController extends GetxController{
@@ -15,7 +17,7 @@ class SplashScreenController extends GetxController{
       animate.value = true;
 
     await Future.delayed(const Duration(milliseconds: 5000));
-    Get.to( OnbordingScreen());
+    Get.to( WelcomeApp());
    // Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>WelcomeApp()));
   
   }

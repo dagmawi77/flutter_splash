@@ -14,7 +14,14 @@ const String dOnbordingCount2 = "2/3";
 const String dOnbordingCount3 = "3/3";
 
 
+//Welcome Screen Text
+const String dWelcomeTitle="እንካን ወደ ዳጌ አፕ በሰላም መጡ";
+const String dWelcomeSubTitle ="Let start to Buid Your first flutter application with Dag";
 
 
+//Generic Text
+
+const String dLogin = "LogIN";
+const String dSiginUp = "SignUp";
 
 
