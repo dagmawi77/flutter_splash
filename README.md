@@ -2,10 +2,10 @@
 
 This Project Have The Following Functionality
 
-1.Light and Dark Theme Based On the System Brightness
-2.Splash Effect be For Application Start
-3.Onbording Screen
-4.Welcome Screens
+# Light and Dark Theme Based On the System Brightness
+# Splash Effect be For Application Start
+# Onbording Screen
+# Welcome Screens
 
 
 A new Flutter project.
