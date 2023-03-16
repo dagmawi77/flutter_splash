@@ -1,4 +1,12 @@
-# flutter_splash
+# flutter_spash
+
+This Project Have The Following Functionality
+
+1.Light and Dark Theme Based On the System Brightness
+2.Splash Effect be For Application Start
+3.Onbording Screen
+4.Welcome Screens
+
 
 A new Flutter project.
 
